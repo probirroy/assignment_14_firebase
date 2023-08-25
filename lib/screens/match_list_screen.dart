@@ -25,7 +25,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Match List'),
+        centerTitle: true,
+        title: const Text('Match List',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: 30)),
       ),
       body: Column(
         children: [
@@ -54,7 +55,7 @@ class HomeScreen extends StatelessWidget {
                             SizedBox(
                               width: 20,
                             ),
-                            Text('VS'),
+                            Text('Vs'),
                             SizedBox(
                               width: 20,
                             ),
@@ -95,7 +96,7 @@ class HomeScreen extends StatelessWidget {
                             SizedBox(
                               width: 20,
                             ),
-                            Text('VS'),
+                            Text('Vs'),
                             SizedBox(
                               width: 20,
                             ),
